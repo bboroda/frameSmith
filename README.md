@@ -26,6 +26,7 @@ cd frameSmith
    do something like `python3.11 -m venv .venv` for python3.11
 
 ```
+
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
