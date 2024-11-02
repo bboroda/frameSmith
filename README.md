@@ -22,9 +22,12 @@ cd frameSmith
 ```
 
 2. Create a virtual environment, and install the Python dependencies.
+   If you have python3.12 or above, you should downgrade it to python3.11 or you'd get `greenlet` errors 
+   do something like `python3.11 -m venv .venv` for python3.11
+
 ```
-virtualenv venv
-source venv/bin/activate
+python3.11 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
